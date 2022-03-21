@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font: 15px 'Roboto' , sans-serif;
+	background: papayawhip;
+}
+
+	.container {
+		max-width: 750px;
+		margin: auto;
+	}
+
+.photo {
+
+	border-radius: 30px;
+	width: 400px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, .75);
+	margin-bottom: 10px;
+}
+ 
+ h1 {
+	color: #F08080;
+	letter-spacing: 4px;
+	text-align: center;
+}
+
+.info {
+	display: flex;
+
+}
+.info p {
+ margin: 50px 30px ;
+ 
+}
+
+ .card {
+ 	border: 2px;
+ 	border-radius: 20px;
+ 	background: azure;
+ 	padding: 15px 20px;
+ 	margin-bottom: 20px;
+ }
+
+ .btn {
+ 	background: peachpuff;
+	padding: 10px 30px; 
+	color: peru;
+	margin-top: 10px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.4;
+}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: orange;
+	}
+
+
+ .bg-yellow {
+ 	background: lightgoldenrodyellow;
+ 	 }
+
+ .bg-red {
+ 	background: moccasin;
+ }
+ 	table {
+ 		width: 400px;
+ 		text-align: left;
+ 	}
+
+ 	.list ul {
+ 		padding: 0 20px;
+ 	}
+
+ 	.form h3 {
+ 	text-align: center;
+ 	}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color:peru;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	border: none;
+	background: transparent;
+	color: black;
+	outline: none;
+	border-bottom: 1px solid peru;
+}
+.form-row {
+	margin-bottom: 10px;
+	display: flex;
+
+}
+
+.form-row .form-group {
+
+margin-right: 20px;
+width: 50%;
+}
