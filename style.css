@@ -2,7 +2,8 @@
 
 body {
 	font: 15px 'Roboto' , sans-serif;
-	background: papayawhip;
+	margin: 0;
+	background: url(background45.jpg);
 }
 
 	.container {
@@ -10,30 +11,41 @@ body {
 		margin: auto;
 	}
 
+	
 .photo {
 
-	border-radius: 30px;
-	width: 400px;
+	border-radius: 50px;
+	width: 200px;
 	box-shadow: 4px 4px 14px rgba(0, 0, 0, .75);
 	margin-bottom: 10px;
 }
  
  h1 {
 	color: #F08080;
-	letter-spacing: 4px;
+	letter-spacing: 10px;
 	text-align: center;
 }
 
 .info {
 	display: flex;
+	}
 
-}
-.info p {
+.info p  {
  margin: 50px 30px ;
+ border: 2px;
+ 	border-radius: 20px;
+ 	padding: 15px 20px;
+ 	background: azure;
+ 	
  
 }
+ 	.works a {
+ 		font-style: italic;
+ 	}
 
- .card {
+ .card,
+ .works
+  {
  	border: 2px;
  	border-radius: 20px;
  	background: azure;
@@ -109,4 +121,9 @@ body {
 
 margin-right: 20px;
 width: 50%;
+}
+
+.instagram,
+.vk {
+	width: 15px;
 }
