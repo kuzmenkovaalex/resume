@@ -3,7 +3,7 @@
 body {
 	font: 15px 'Roboto' , sans-serif;
 	margin: 0;
-	background: url(background45.jpg);
+	background: url("background45.jpg");
 }
 
 	.container {
@@ -11,7 +11,7 @@ body {
 		margin: auto;
 	}
 
-	
+
 .photo {
 
 	border-radius: 50px;
@@ -123,7 +123,7 @@ margin-right: 20px;
 width: 50%;
 }
 
-.instagram,
+.insta,
 .vk {
 	width: 15px;
 }
